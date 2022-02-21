@@ -18,4 +18,3 @@ app.get("/",onDefault);  // Request handler functions are registered
 app.get("/aboutus",onAboutUs);  // Request handler functions are registered
 var server=app.listen(8081);
 console.log("Server is running on port 8081");
-
